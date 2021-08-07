@@ -35,7 +35,6 @@ function SenderProfile({ className }) {
 					</button>
 				</div>
 			</div>
-			//side Profile view
 			<div className='cards p-2'>
 				<div className='info-card bg-white rounded-md p-4'>
 					<div className='title font-semibold text-xl'>Customer details</div>

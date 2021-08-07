@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[812],{5906:function(n,_,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/dashboard/conversations",function(){return u(6505)}])}},function(n){n.O(0,[885,768,505,774,888,179],(function(){return _=5906,n(n.s=_);var _}));var _=n.O();_N_E=_}]);

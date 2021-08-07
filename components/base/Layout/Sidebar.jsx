@@ -1,4 +1,3 @@
-//Side layout as per the document
 import Logo from "../../icons/logo";
 import { People, Chats, Chart, Logout } from "../../icons";
 import Link from "next/link";

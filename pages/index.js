@@ -13,7 +13,6 @@ export default function Home() {
 	}
 	
 	return (
-		//home page div
 		<div className={styles.container}>
 			<div className='login-title text-2xl mb-2'>
 			Proof of concept Application

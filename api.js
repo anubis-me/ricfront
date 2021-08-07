@@ -1,8 +1,5 @@
 import axios from "axios";
 
-//connecting from backend
-
-//to get user profile
 const fetchProfile = async (email, id) => {
 	const res = await axios.get(
 		`https://testt222222.herokuapp.com/api/user/${email}/profile/${id}`,

@@ -1,7 +1,10 @@
 {
   "/_app": "pages/_app.js",
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/dashboard/conversations": "pages/dashboard/conversations.html",
+  "/dashboard": "pages/dashboard.html",
+  "/": "pages/index.html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/dashboard": "pages/dashboard.js"
+  "/404": "pages/404.html"
 }

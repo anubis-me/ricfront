@@ -29,7 +29,6 @@ const LeftMsg = ({ msg, sender }) => {
 						</span>
 					</div>
 				</div>
-				//Time stamp as asked in the assignment
 				<div className='date-time text-sm text-left'>
 					<span className='font-semibold'>{sender.first_name}</span> -{" "}
 					{moment(msg.time).format("MMM D, h.mm a")}
@@ -50,7 +49,6 @@ const RightMsg = ({ msg, sender }) => {
 						</span>
 					</div>
 					<div className='sender-img col-span-2 flex justify-end'>
-					//profile image of the user
 						<img
 							src={sender.image}
 							alt='sender-img'
@@ -58,7 +56,6 @@ const RightMsg = ({ msg, sender }) => {
 						/>
 					</div>
 				</div>
-				//User name
 				<div className='date-time text-sm text-right'>
 					<span className='font-semibold'>{sender.name}</span> -{" "}
 					{moment(msg.time).format("MMM D, h.mm a")}

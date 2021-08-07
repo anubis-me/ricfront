@@ -1,4 +1,3 @@
-//Creating session between the frontend and backend
 import NextAuth from "next-auth";
 import Providers from "next-auth/providers";
 import { updateToken } from "../../../api";
@@ -33,7 +32,6 @@ export default NextAuth({
 			return session;
 		},
 	},
-	//Json web token for safer data transfer
 	session: { jwt: true },
 	jwt: {
 		secret: process.env.JWT_SECRET,

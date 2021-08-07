@@ -4,7 +4,6 @@ import { conversationState, activeConvState } from "../../atoms/atom";
 import { useRecoilState, useRecoilValue } from "recoil";
 
 
-// listing of the users in the chat based on the lastest message
 function UserListing({ className }) {
 	const convState = useRecoilValue(conversationState);
 	const [activeConv, setActiveConv] = useRecoilState(activeConvState);
@@ -33,7 +32,6 @@ function UserListing({ className }) {
 												name=''
 												id=''
 											/>
-											//displaying the details
 											<div className='name-type col-span-8 text-left'>
 												<div className='name font-semibold'>
 													{item.user.first_name + " " + item.user.last_name}
